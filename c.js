@@ -1,6 +1,5 @@
 google.load('visualization', '1', {packages: ['corechart', 'bar']});
 google.setOnLoadCallback(drawBasic);
-
     function drawBasic() {
 
                 var data = google.visualization.arrayToDataTable([
